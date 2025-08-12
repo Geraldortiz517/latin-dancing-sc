@@ -1,0 +1,41 @@
+  <div class="section__text">
+        <p class="section__text__p1">Hello, welcome to</p>
+        <h1 class="title">Latin Dancing Santa Cruz</h1>
+        <p class="section__text__p2">where the ocean breeze meets the beat of the clave</p>
+        <p class="section__text__p1">Our vibrant latin dance community brings people together
+            to move, connect and celebrate life. From salsa to bachata, afrobeats to cha cha, we
+            welcome dancers of all levels -- whether you're stepping onto the dance floor for the 
+            first time or perfecting your spins.
+        </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="location.href='./#description'"
+          >
+            More Info
+          </button>
+          <button  class="btn btn-color-1" onclick="location.href='./form.html'">
+            Contact 
+          </button>
+        </div>
+        
+      </div>
+
+      <p>
+        Salsa By The Sea is a free, weekly outdoor salsa dance event held on 
+        the Santa Cruz Municipal Wharf. The event runs all year long
+         (except when it rains) and the start time depends on the season
+          (later in the summer, earlier in the winter). Some weekends are 
+          “Bachata by the Sea”, with more bachata music played than salsa. 
+          Occasionally there will be lessons as well, but mostly the event is
+           for social dancing.
+        </p>
+
+        <p>
+            Spice up your Tuesdays! Join us every Tuesday night from 7–10pm 
+            at Abbott Square Market for a sizzling social dance party! Move 
+            to the rhythms of salsa, cumbia, merengue, and bachata in a vibrant, 
+            welcoming atmosphere. It’s free, it’s fun, and it’s the perfect
+             midweek vibe. All levels welcome — just bring your energy and your dancing shoes!
+          </p>
+          
