@@ -112,12 +112,13 @@ height: 150px;
 
 .menu-links {
   position: absolute;
+  margin-top: 3vh;
   top: 100%;
-  background: linear-gradient(to bottom, transparent, black);
+  background: linear-gradient(to top, transparent, black);
   width: 1150%;
-  right: -180px;
+  right: -150px;
   max-height: 0;
-  height: 2500%;
+  height: 100vh;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
 }
@@ -131,7 +132,6 @@ height: 150px;
   text-align: left;
   font-size: 1.5rem;
   color:#ffff ;
-  text-decoration-line: underline;
   transition: all 0.3 ease-in-out;
 }
 
@@ -322,7 +322,10 @@ background-color: transparent;
 }
 
 .details-container0{
-  display: flex;
+  max-width: 70%;
+  margin-left: 15%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   height: fit-content;
   justify-content: center;
   width: 100%;
@@ -336,16 +339,15 @@ background-color: transparent;
 }
 .details-container1{
 background-image: url(./assets/salsabythesea.jpg);
-  float:left ;
-  width: 25%;
+  width: 90%;
  margin-top: 3vh;
- margin-left: 3%;
 padding-bottom: 2rem;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  justify-self: center;
 }
 
 

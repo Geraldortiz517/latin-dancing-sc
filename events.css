@@ -1,0 +1,55 @@
+.section-title{
+    text-align: center;
+    color: white;
+    font-size: -webkit-xxx-large;
+
+}
+.img-container{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 2rem;
+    width: 30vh;
+    height: 30vh;
+    justify-content: flex-end;
+display: flex;
+}
+.details-container02{
+    justify-self: center;
+    width: 100%;
+}
+.details-container2{
+    border: 1px solid black;
+    justify-self: center;
+    border-radius: 2rem;
+    width: 90%;
+    max-width: 90vh;
+    margin: 2rem;
+}
+
+.date{
+    background-color: black;
+    width: 10vh;
+    height: 10vh;
+    text-align: center;
+    justify-content: center;
+display: flex;
+}
+.date h1{
+    color: #ffff;
+align-self: center;
+}
+#date1{
+    background-image: url(./assets/salsabythesea.jpg);
+}
+#date2{
+    background-image: url(./assets/abbotsquare.jpg);
+     background-size: cover;
+}
+#date3{
+    background-image: url(./assets/una.png);
+    background-position: center;
+}
+.info{
+    margin: 3vh;
+    width: 50%;
+}

@@ -1,193 +1,150 @@
+/* --------------------------------- */
+/*           ≤ 1400px                */
+/* --------------------------------- */
 @media screen and (max-width: 1400px) {
-    #profile {
-      height: 83vh;
-      margin-bottom: 6rem;
-    }
-    .about-containers {
-      flex-wrap: wrap;
-    }
-.nav-container{
-width: 100%;
-justify-content: flex-start;
+  #profile {
+    margin-bottom: 4rem;
+  }
+
+  .nav-container {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .hamburger-menu {
+    margin: 1rem;
+  }
+  .menu-links{
+    right: -120px;
+  }
 }
-.hamburger-menu{
-    margin: 2vh;
+
+/* --------------------------------- */
+/*           ≤ 1200px                */
+/* --------------------------------- */
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+  }
+
+  .text-container {
+    padding: 0 1rem;
+  }
+
+  .event-card img {
+    height: 180px;
+  }
+
+  footer .nav-links-footer {
+    display: none;
+  }
 }
+
+/* --------------------------------- */
+/*            ≤ 768px                */
+/* --------------------------------- */
+@media screen and (max-width: 768px) {
+  .events-grid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
   }
-  
-  @media screen and (max-width: 1200px) {
-    #desktop-nav {
-      display: none;
-    }
-    #hamburger-nav {
-      display: flex;
-      justify-content: flex-start;
-    
-    }
-    #experience,
-    .experience-details-container {
-      margin-top: 2rem;
-    }
-    #profile,
-    .section-container {
-      display: block;
-    }
-    .arrow {
-      display: none;
-    }
-    section,
-    .section-container {
-      height: fit-content;
-    }
-  
-    .section__pic-container {
-      width: 275px;
-      height: 275px;
-      margin: 0 auto 2rem;
-    }
-    .about-containers {
-      margin-top: 0;
-    }
-    
-    .details-container1{
-      padding: 0.5rem; 
-    }
-   
-    .img-container{
-      display: block;
-      justify-content: center;
-    }
-   
-    .nav-links-footer{
-        display: none;
-    }
+
+  .btn {
+    width: 100%;
   }
-  @media screen and (max-width: 800px) {
-    .pricing-img{
-      width: 80%;
-      display: none;
-    }
-    #pricinimg{
-  
-      display: none;
-    }
-    #pricing{
-      margin-top: 10vh;
-    }
-  
+
+  .title {
+    font-size: 2rem;
   }
-  @media screen and (max-width: 600px) {
-    .pricing-img{
-      width: 100%;
-    }
-    #pricinimg{
-      width: 100%;
-      display: none;
-    }
-    #pricing{
-      margin-top: 10vh;
-    }
-    #contact,
-    footer {
-      height: fit-content;
-    }
-    #profile {
-      height: 83vh;
-      margin-bottom: 0;
-    }
-    article {
-      font-size: 1rem;
-    }
-    footer nav {
-      height: fit-content;
-      margin-bottom: 2rem;
-    }
-    .details-container0 {
-      display: grid;
-     
+
+  .text-container {
+    text-align: center;
+    padding: 1rem;
   }
-  .details-container1,
-  .details-container2,
-  .details-container3 {
-  
-    width: 90%;
-   
+
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
   }
-  
-  
-    .about-containers,
-    .contact-info-upper-container,
-    .btn-container {
-      flex-wrap: wrap;
-    }
-    .contact-info-upper-container{
-      width: fit-content;
-    }
-    .contact-info-container {
-     
-      display: flex;
-    
-    }
-    .contact-info-container1 {
-      margin: 0; 
-      display: grid;
-      height: fit-content;
-    }
-  .contact-info-container p,
-    .nav-links li a {
-      font-size: 1rem;
-    }
-    .contact-wrapper{
-      height: inherit;
-    }
-    .contact-content{
-      margin-top: 3vh;
-    }
-    .experience-sub-title {
-      font-size: 1.25rem;
-    }
-    .logo {
-      font-size: 1.5rem;
-    }
-    .nav-links {
-      flex-direction: column;
-      gap: 0.5rem;
-      text-align: center;
-    }
-    .section__pic-container {
-      width: auto;
-      height: 46vw;
-      justify-content: center;
-    }
-    .section__text__p2 {
-      font-size: 1.25rem;
-    }
-    .title {
-      font-size: 2rem;
-    }
-    .text-container {
-      text-align: justify;
-    }
-    .article-text{
-      font-size: 10px;
+
+  .menu-links {
+    width: 200px;
+
+  }
+  .details-container0{
+   display: block;
     }
     
-      #pricing{
-        width: 90%;
-        margin-left: 5%;
-        
-      }
-      .pricing-list{
-        margin: 5vh;
-        }
-      .contact-info-upper-container{
-        width: 50%;
-      }
-      .email{
-        display: none;
-      }
-      .details-container4{
-        display: none;
-      }
-    
+}
+
+/* --------------------------------- */
+/*            ≤ 600px                */
+/* --------------------------------- */
+@media screen and (max-width: 600px) {
+  .logo img {
+    width: 100px;
+    height: auto;
   }
+
+  .hamburger-icon {
+    width: 24px;
+    height: 20px;
+  }
+
+  .event-card img {
+    height: 160px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .section__text__p1 {
+    font-size: 1rem;
+  }
+
+  footer {
+    padding: 2rem 1rem;
+  }
+
+  footer p {
+    font-size: 0.85rem;
+  }
+
+  .btn {
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+  .menu-links{
+    right: -100px;
+  }
+}
+
+/* --------------------------------- */
+/*           ≤ 480px (optional)      */
+/* --------------------------------- */
+@media screen and (max-width: 480px) {
+  .events-grid {
+    padding: 1rem 0.5rem;
+  }
+
+  .event-card {
+    border-radius: 0.5rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}
